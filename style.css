@@ -90,3 +90,19 @@ body {
         display: flex;
     }
 }
+
+
+
+
+
+.card {
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+#loader {
+    display: none; /* Initially hidden */
+}
+
